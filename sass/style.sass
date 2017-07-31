@@ -1,0 +1,115 @@
+@import colors
+@import mixins
+@import media-queries
+
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+.clear
+	clear: both
+
+.container
+	padding: 0 2%
+
+.slide-head
+	width: 100%
+	height: 90vh
+
+.slide-head-single
+	width: 100%
+	height: 90vh
+	background-size: 100% 100%
+	background-repeat: no-repeat
+	background-position: center
+	
+
+.slide-head-single img
+	width: 400px
+	top: 20px
+	left: 20px
+	display: inline-block
+	position: absolute
+
+.slide-head-single p
+	+text-escuro(70px)
+	margin-top: 40px
+	opacity: 0.8
+
+.socials
+	width: 100%
+	height: 10vh
+	background-color: $alternative_color_rgba
+	text-align: center
+	position: relative
+
+.wraper-social
+	width: 100%
+	top: 50%
+	+transform-translate(0,-50%)
+	position: absolute
+
+.socials img
+	width: 50px
+	height: 50px
+	cursor: pointer
+	margin-left: 60px
+	
+	&:hover
+		width: 60px
+		height: 60px
+		animation-duration: 1s
+
+nav
+	padding: 30px !important
+	float: right !important
+	display: inline-block !important
+
+.menu-desktop
+	margin-top: 50px !important
+
+.menu-mobile
+	display: none !important
+
+ul li
+	float: left !important
+
+ul a
+	color: $white
+	+text-claro(28px)
+
+.slick-dotted ul
+	list-style-type: none
+	text-align: center
+	position: relative
+	top: -50px
+	left: 50%
+	+transform-translate(-50%,0)
+	display: inline-block
+
+.slick-dotted li
+	display: inline-blocl
+	margin: 0 7px
+
+.slick-dotted button:focus
+	outline: none
+
+.slick-dotted li button
+	width: 16px
+	height: 16px
+	border-radius: 8px
+	color: $black
+	border-width: 0
+	opacity: 1
+	cursor: pointer
+	background-color: $black
+	margin-bottom: 20px
+
+li.slick-active button
+	background-color: $alternative_color
+	color: $alternative_color
+
+.slick-slide:focus
+	outline: none
+
