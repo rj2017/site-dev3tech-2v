@@ -25,3 +25,12 @@
 	-o-transform: translate($val1 , $val2)
 	-ms-transform: translate($val1 , $val2)
 	transform: translate($val1 , $val2)
+
+
+@mixin tela_media
+	@media only screen and(max-width:1200px)
+		@content
+
+@mixin phone
+	@media only screen and(max-width:768px)
+		@content

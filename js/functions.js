@@ -12,4 +12,11 @@ $(function(){
   		autoplaySpeed: 2000
 	});
 
+
+	//Menu mobile
+
+	$('.img-menu').click(function(){
+		$('.menu-mobile').slideToggle()
+	});
+
 });
