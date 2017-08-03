@@ -61,7 +61,28 @@
 	</section><!-- socials -->
 	<section class="servicos">
 		
-	</section>
+		<div class="servicos-wrapper">
+
+			<div class="servicos-single">
+				<img src="images/site-map.png"/>
+				<h2>Titulo serviço</h2>
+				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica</p>
+			</div><!-- servicos-single -->
+
+			<div class="servicos-single">
+				<img src="images/site-map.png"/>
+				<h2>Titulo serviço</h2>
+				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica</p>
+			</div><!-- servicos-single -->
+
+			<div class="servicos-single">
+				<img src="images/site-map.png"/>
+				<h2>Titulo serviço</h2>
+				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica</p>
+			</div><!-- servicos-single -->
+		</div><!-- servicos-wrapper -->
+
+	</section><!-- servicos -->
 
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/slick.js"></script>

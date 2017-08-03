@@ -1,17 +1,22 @@
+/*imports*/
 @import colors
 @import mixins
 @import media-queries
 
+/*variaveis globais*/
 *
 	margin: 0
 	padding: 0
 	box-sizing: border-box
+	font-family: 'Roboto', sans-serif
 
 .clear
 	clear: both
 
 .container
 	padding: 0 2%
+
+/**Header**/
 
 .slide-head
 	width: 100%
@@ -117,6 +122,8 @@ nav.menu-mobile ul li
 		background-color: $alternative_color
 		color: $white
 
+/*slide*/
+
 .slick-dotted ul
 	list-style-type: none
 	text-align: center
@@ -151,12 +158,40 @@ li.slick-active button
 .slick-slide:focus
 	outline: none
 
-
+/**servicos**/
 
 section.servicos
 	width: 100%
-	min-height: 80vh
+	min-height: 400px
 	background-color: $grey
+	padding: 80px 0
+
+.servicos-wrapper
+	display: flex
+	width: 80%
+	margin: 0 auto
+
+.servicos-single
+	width: 33,3%
+	padding: 25px
+	display: inline-block
+	text-align: center
+
+.servicos-single img
+	width: 50px
+	height: 50px
+
+.servicos-single h2
+	color: $orange
+	font-size: 26px
+	font-style: italic
+
+.servicos-single p
+	margin-top: 20px
+	text-align: justify
+	+text-escuro(18px)
+
+/**media queryes**/
 
 @include tela_media
 	nav.menu-desktop
@@ -164,6 +199,9 @@ section.servicos
 
 	.img-menu
 		display: inline-block
+
+	.servicos-wrapper
+		flex-direction: column
 
 @include phone
 	.menu img
