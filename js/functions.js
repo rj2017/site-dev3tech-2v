@@ -9,7 +9,17 @@ $(function(){
 		fade: true,
 		cssEase: 'linear',
 		autoplay: true,
-  		autoplaySpeed: 2000
+  		autoplaySpeed: 4000
+	});
+
+	$('.comentarios').slick({
+		arrows: false,
+		dots: true,
+		infinite: true,
+		speed: 500,
+		fade: true,
+		autoplay: true,
+  		autoplaySpeed: 4000
 	});
 
 

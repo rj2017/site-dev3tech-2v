@@ -122,13 +122,22 @@ nav.menu-mobile ul li
 		background-color: $alternative_color
 		color: $white
 
-/*slide*/
+/*slide slick*/
+
+header .slick-dotted ul
+	list-style-type: none
+	text-align: center
+	position: relative
+	top: -50px
+	left: 50%
+	+transform-translate(-50%,0)
+	display: inline-block
 
 .slick-dotted ul
 	list-style-type: none
 	text-align: center
 	position: relative
-	top: -50px
+	top: 20px
 	left: 50%
 	+transform-translate(-50%,0)
 	display: inline-block
@@ -177,6 +186,9 @@ section.servicos
 	display: inline-block
 	text-align: center
 
+	&:hover
+		+box-shadow(0px 5px 5px 0px rgba(0,0,0,0.61))
+
 .servicos-single img
 	width: 50px
 	height: 50px
@@ -189,6 +201,35 @@ section.servicos
 .servicos-single p
 	margin-top: 20px
 	text-align: justify
+	+text-escuro(18px)
+
+/**comentarios**/
+
+section.comentarios
+	padding: 30px 2%
+	background-color: $accent_color
+	
+
+.comentarios-wraper
+	display: inline-block
+	width: 100%
+
+.comentarios-single
+	max-width: 800px
+	margin: 0 auto
+	display: flex
+	align-items: center
+
+section.comentarios img
+	width: 100px
+	height: 100px
+	border-radius: 50%
+	display: inline-block
+
+section.comentarios p
+	display: inline-block
+	padding-left: 20px
+	width: calc(100%-100px)
 	+text-escuro(18px)
 
 /**media queryes**/

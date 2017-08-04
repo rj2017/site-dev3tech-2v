@@ -46,9 +46,6 @@
 
 				</div><!-- slide-head-single -->
 
-				<div class="slide-head-single" style="background-image: url(images/slide3.jpg);">
-
-				</div><!-- slide-head-single -->
 			</div><!-- slide-head -->
 	</header>
 	<section class="socials">
@@ -83,6 +80,25 @@
 		</div><!-- servicos-wrapper -->
 
 	</section><!-- servicos -->
+	<section class="comentarios">
+
+		<div class="comentarios-wraper">
+			<div class="comentarios-single">
+				<img src="images/fj.jpg"/>
+				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde</p>
+			</div><!-- comentarios-single -->
+		</div><!-- comentarios-wraper -->
+
+		<div class="comentarios-wraper">
+			<div class="comentarios-single">
+				<img src="images/rj.jpg"/>
+				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde</p>
+			</div><!-- comentarios-single -->
+		</div><!-- comentarios-wraper -->
+
+	
+	</section><!-- comentarios -->
+	<div class="clear"></div>
 
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/slick.js"></script>
