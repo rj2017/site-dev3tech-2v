@@ -99,6 +99,50 @@
 	
 	</section><!-- comentarios -->
 	<div class="clear"></div>
+	<section class="templates">
+		<div class="wraper-templates">
+			<h2>Nossos Templates</h2>
+
+			<div class="templates-single">
+
+				<div class="cont-template">
+					<p></p>
+
+					<div class="img-template">
+						<!-- <img src=""> -->
+					</div><!-- img-template -->
+				</div><!-- cont-template -->
+
+				<div class="cont-template">
+					<p>Titulo template</p>
+
+					<div class="img-template">
+						<img src="images/jc.jpg">
+					</div><!-- img-template -->
+				</div><!-- cont-template -->
+
+				<div class="cont-template">
+					<p>Titulo template</p>
+
+					<div class="img-template">
+						<img src="images/tp.JPG">
+						<div class="efeito=img"></div>
+					</div><!-- img-template -->
+				</div><!-- cont-template -->
+
+				<div class="cont-template">
+					<p></p>
+
+					<div class="img-template">
+						<!-- <img src=""> -->
+					</div><!-- img-template -->
+				</div><!-- cont-template -->
+
+			</div><!-- templates-single -->
+
+
+		</div><!-- wraper-templates -->
+	</section><!-- templates -->
 
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/slick.js"></script>

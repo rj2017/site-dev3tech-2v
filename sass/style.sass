@@ -186,9 +186,6 @@ section.servicos
 	display: inline-block
 	text-align: center
 
-	&:hover
-		+box-shadow(0px 5px 5px 0px rgba(0,0,0,0.61))
-
 .servicos-single img
 	width: 50px
 	height: 50px
@@ -231,6 +228,44 @@ section.comentarios p
 	padding-left: 20px
 	width: calc(100%-100px)
 	+text-escuro(18px)
+
+/**templates**/
+
+section.templates
+	padding: 30px 2%
+	background-color: $alternative_color_rgba
+
+.wraper-templates
+	width: 100%
+	text-align: center
+	
+	h2
+		+text-claro(25px)
+
+.templates-single
+	width: 100%
+	display: flex
+
+.cont-template
+	width: 25%
+	margin-top: 30px
+	+text-claro(18px)
+
+.img-template
+	width: 100%
+	height: auto
+	position: relative
+	padding: 10px
+	cursor: pointer
+
+
+.img-template img
+	width: 100%
+	
+	&:hover
+		+transform-rotate(2deg)
+		+box-shadow(4px 4px $accent_color)
+
 
 /**media queryes**/
 
