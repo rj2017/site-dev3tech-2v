@@ -16,6 +16,19 @@
 .container
 	padding: 0 2%
 
+.w50
+	width: 50%
+	display: inline-block
+
+.w100
+	width: 100%
+
+.right
+	float: right
+
+.left
+	float: left
+
 /**Header**/
 
 .slide-head
@@ -191,9 +204,7 @@ section.servicos
 	height: 50px
 
 .servicos-single h2
-	color: $orange
-	font-size: 26px
-	font-style: italic
+	+text-titulo(26px)
 
 .servicos-single p
 	margin-top: 20px
@@ -240,7 +251,7 @@ section.templates
 	text-align: center
 	
 	h2
-		+text-claro(25px)
+		+text-claro(26px)
 
 .templates-single
 	width: 100%
@@ -266,6 +277,94 @@ section.templates
 		+transform-rotate(2deg)
 		+box-shadow(4px 4px $accent_color)
 
+/**contato**/
+
+section.contato
+	background-color: $grey
+	padding: 30px
+	text-align: center
+
+.wraper-contato h2
+	+text-titulo(26px)
+
+.wraper-contato p
+	display: inline-block
+	max-width: 500px
+	margin: 10px 0
+	+text-escuro(18px)
+
+.wraper-contato form
+	max-width: 800px
+	margin: 0 auto
+
+	input
+		margin-top: 20px !important
+		height: 50px !important
+		font-size: 18px
+
+		&:focus
+			border: 1px solid $accent_color
+
+	textarea
+		margin-top: 20px !important
+		font-size: 18px
+		
+		&:focus
+			border: 1px solid $accent_color
+
+	button
+		width: 200px
+		height: 50px
+		margin-top: 20px !important
+		font-size: 18px
+
+		&:hover
+			+transform-rotate(2deg)
+			+box-shadow(4px 4px $accent_color)
+
+/**sobre**/
+
+section.sobre
+	background-color: $alternative_color_rgba
+	padding: 30px
+
+	.wraper-sobre
+		display: flex
+		align-items: center
+
+	.sobre-infor
+		width: 60%
+		padding: 20px
+		text-align: center
+
+		h2
+			+text-claro(26px)
+
+		p
+			+text-claro(18px)
+			text-align: justify
+			margin-top: 20px
+			max-width: 600px
+			display: inline-block
+
+	.sobre-img
+		width: 40%
+		padding: 20px
+
+		.img
+			width: 80%
+			height: 300px
+			background-color: $black
+
+/**rodape**/ 
+
+footer
+	background-color: $dark_color
+	padding: 20px
+	text-align: center
+
+	p
+		+text-claro(20px)
 
 /**media queryes**/
 
@@ -279,9 +378,32 @@ section.templates
 	.servicos-wrapper
 		flex-direction: column
 
+	.templates-single
+		flex-direction: column
+
+	.cont-template
+		width: 80%
+		margin: 30px auto
+		+text-claro(18px)
+
+	.wraper-sobre
+		flex-direction: column
+
+	.sobre-infor
+		width: 80% !important
+
+	.sobre-img
+		display: none !important
+
 @include phone
 	.menu img
 		width: 250px
 
 	.img-menu
 		top: 20px
+
+	.left
+		float: none
+
+	.right
+		float: none

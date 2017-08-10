@@ -84,14 +84,14 @@
 
 		<div class="comentarios-wraper">
 			<div class="comentarios-single">
-				<img src="images/fj.jpg"/>
+				<img src="images/fj.jpg" class="img-circle" />
 				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde</p>
 			</div><!-- comentarios-single -->
 		</div><!-- comentarios-wraper -->
 
 		<div class="comentarios-wraper">
 			<div class="comentarios-single">
-				<img src="images/rj.jpg"/>
+				<img src="images/rj.jpg" class="img-circle" />
 				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde</p>
 			</div><!-- comentarios-single -->
 		</div><!-- comentarios-wraper -->
@@ -143,6 +143,47 @@
 
 		</div><!-- wraper-templates -->
 	</section><!-- templates -->
+	<section class="contato">
+		<div class="wraper-contato">
+			
+			<h2>Contato</h2>
+
+			<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos</p>
+
+			<form>				    
+			    <input type="text" class="form-control" id="inputNome" placeholder="Nome:">
+			    <input type="text" class="form-control" id="inputTel" placeholder="Telefone:">
+			    <input type="email" class="form-control" id="inputEmail" placeholder="E-mail:">
+				<textarea class="form-control" rows="3" placeholder="Mensagem"></textarea>
+				<button type="submit" class="btn btn-primary">Enviar</button>
+				<div class="clear"></div>
+			</form>
+		</div><!-- wraper-contato -->
+	</section><!-- contato -->
+	<section class="sobre">
+
+		<div class="wraper-sobre">
+
+			<div class="sobre-infor">
+				<h2>DEV3TECH</h2>
+
+				<p>Empresa fundada por 3 amigos, que enxergaram uma oportunidade no mercado, em investir em soluções web para micro negócios, que necessitam de sistemas e sites para evoluir seus negócios.</p>
+				<p>O nosso foco é fornecer a oportunidade de micro e pequenos negócios de terem sites e sistemas agregando valor ao seu serviço/produto, dentro de sua realidade, prezando sempre pela transparência e respeito ao nosso o cliente mantendo assim um excelente relacionamento.</p>
+			</div><!-- sobre-single -->
+
+			<div class="sobre-img">
+				<div class="img">
+					<img src="">
+				</div><!-- img-sobre -->
+			</div><!-- sobre-single -->
+
+		</div><!-- wraper-sobre -->
+	</section><!-- sobre -->
+	<footer>
+		<p class="left">Todos os direitos reservados</p>
+		<p class="right">contato@dev3tech.com.br</p>
+		<div class="clear"></div>
+	</footer>
 
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/slick.js"></script>
