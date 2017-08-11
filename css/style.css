@@ -107,7 +107,10 @@ nav.menu-desktop ul a {
   font-size: 28px;
   color: #fff; }
   nav.menu-desktop ul a:hover {
-    color: #5A6978 !important; }
+    color: #5A6978 !important;
+    background-color: #ddd; }
+  nav.menu-desktop ul a:active {
+    background-color: #ddd; }
 
 nav.menu-mobile {
   position: absolute !important;
@@ -129,11 +132,9 @@ nav.menu-mobile ul li {
   font-size: 25px;
   padding: 3px;
   cursor: pointer; }
-  nav.menu-mobile ul li a {
-    text-decoration: none; }
-  nav.menu-mobile ul li:hover {
-    background-color: #5A6978;
-    color: #fff; }
+
+nav.menu-mobile ul a {
+  text-decoration: none !important; }
 
 /*slide slick */
 header .slick-dotted ul {
@@ -200,9 +201,8 @@ section.servicos {
   margin: 0 auto; }
 
 .servicos-single {
-  width: 33, 3%;
-  padding: 25px;
-  display: inline-block;
+  width: 33.3%;
+  padding: 30px;
   text-align: center; }
 
 .servicos-single img {
@@ -215,10 +215,19 @@ section.servicos {
   font-style: italic; }
 
 .servicos-single p {
-  margin-top: 20px;
   text-align: justify;
+  margin-top: 20px;
   font-size: 18px;
   color: #47525E; }
+
+.servicos-single ul {
+  margin-top: 20px; }
+
+.servicos-single ul li {
+  font-size: 18px;
+  color: #47525E;
+  text-align: left;
+  margin-left: 30px; }
 
 /**comentarios* */
 section.comentarios {
@@ -368,6 +377,11 @@ section.sobre {
       width: 80%;
       height: 300px;
       background-color: #222; }
+      section.sobre .sobre-img .img img {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover; }
 
 /**rodape* */
 footer {
@@ -388,6 +402,9 @@ footer {
 
   .servicos-wrapper {
     flex-direction: column; }
+
+  .servicos-single {
+    width: 100%; }
 
   .templates-single {
     flex-direction: column; }
