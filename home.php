@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/slick.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen,projection"/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.o, maximun-scale=1.0">
 	<meta charset ="description" content="dev3tech.com.br: software, desenvolvimento de sites e sistemas para pequenos e micro negócios"/>
 	<meta charset= "keyword" content="empresa, sites,baratos,Ribeirão,das,Neves,Minas,Gerais,Belo,Horizonte,qualidade,Sistemas,sistema,gerenciamento,barato,em,conta,dev3tech,d3t,"/>
@@ -49,7 +50,7 @@
 				</div><!-- slide-head-single -->
 
 				<div class="slide-head-single" style="background-image: url(images/slide1.jpg);">
-
+					
 				</div><!-- slide-head-single -->
 
 			</div><!-- slide-head -->
@@ -124,10 +125,10 @@
 			<div class="templates-single">
 
 				<div class="cont-template">
-					<p></p>
+					<p>Site antigo</p>
 
 					<div class="img-template">
-						<!-- <img src=""> -->
+						<a href="http://siteantigo.dev3tech.com.br/" target="_blank"><img src="images/d3t-antigo.JPG"></a>
 					</div><!-- img-template -->
 				</div><!-- cont-template -->
 
@@ -135,7 +136,7 @@
 					<p>Justin City</p>
 
 					<div class="img-template">
-						<a href="http://justincity.dev3tech.com.br/" target="_blank"><img src="images/jc.jpg"></a>
+						<a href="http://justincity.dev3tech.com.br/" target="_blank"><img src="images/jc.JPG"></a>
 					</div><!-- img-template -->
 				</div><!-- cont-template -->
 
@@ -148,13 +149,6 @@
 					</div><!-- img-template -->
 				</div><!-- cont-template -->
 
-				<div class="cont-template">
-					<p></p>
-
-					<div class="img-template">
-						<!-- <img src=""> -->
-					</div><!-- img-template -->
-				</div><!-- cont-template -->
 
 			</div><!-- templates-single -->
 

@@ -40,21 +40,13 @@ $(function(){
 	        return false;
     	});
 
-		$nav = $('nav.menu-desktop ul a')
-    $(window).scroll(function() {
-    	var windowOffY = $(window).scrollTop();
-		var windowHeight = $(window).height(); 
+    	$(window).resize(function(){
+    		$resize = $('body').width();
 
-			$('section').each(function(){
-				var elOffY = $(this).offset().top; 
-			if(elOffY < 300){
-					
-					console.log(elOffY);
-					return;
-				}
-			});
-
-    });
+    		if ($resize > 1200) {
+    			$('.menu-mobile').slideUp();
+    		}
+    	});
 
   
 

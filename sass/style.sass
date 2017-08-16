@@ -4,6 +4,9 @@
 @import media-queries
 
 /*variaveis globais*/
+body, html
+	min-width: 350px
+
 *
 	margin: 0
 	padding: 0
@@ -41,6 +44,14 @@
 	background-size: 100% 100%
 	background-repeat: no-repeat
 	background-position: center
+
+	p
+		+text-banner(60px)
+		position: absolute
+		top: 40%
+		left: 50%
+		+transform-translate(-50%,-40%)
+		text-align: center
 
 .menu
 	position: absolute
@@ -105,15 +116,16 @@ nav.menu-desktop ul
 nav.menu-desktop ul li
 	float: left !important
 
+
 nav.menu-desktop ul a
 	+text-claro(28px)
 
+	&:focus
+		background-color: transparent !important
+
 	&:hover
 		color: $alternative_color !important
-		background-color: $grey
-
-	&:active
-		background-color: $grey
+		background-color: $grey !important
 
 nav.menu-mobile
 	position: absolute !important
@@ -267,7 +279,7 @@ section.templates
 	display: flex
 
 .cont-template
-	width: 25%
+	width: 33.3%
 	margin-top: 30px
 	+text-claro(18px)
 
@@ -387,6 +399,11 @@ footer
 	nav.menu-desktop
 		display: none !important
 
+	.slide-head-single
+		p
+			left: 10%
+			+transform-translate(-10%,-50%)
+
 	.img-menu
 		display: inline-block
 
@@ -425,3 +442,9 @@ footer
 
 	.right
 		float: none
+
+	.slide-head-single
+		p
+			left: 50%
+			+transform-translate(-50%,-50%)
+			+text-banner(50px)
