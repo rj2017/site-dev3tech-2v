@@ -162,12 +162,14 @@
 
 			<p>Nos envie o seu pedido, entraremos em contato o mais breve!</p>
 
-			<form>				    
+			<form action="envio_formulario.php" id="formulario-email" name="envio_formulario" method="post">				    
 			    <input type="text" class="form-control" id="inputNome" name="nome" placeholder="Nome:" required />
 			    <input type="text" class="form-control" id="inputTel" placeholder="Telefone:" name="telefone" required />
 			    <input type="email" class="form-control" id="inputEmail" placeholder="E-mail:" name="email" required />
 				<textarea class="form-control" rows="3" placeholder="Mensagem" name="mensagem" required></textarea>
-				<button type="submit" class="btn btn-primary" name="acao" value="ENVIAR" id="acao" >Enviar</button>
+
+				<input type="submit" name="enviar" value="ENVIAR" class="btn btn-primary"/>
+				
 				<div class="clear"></div>
 			</form>
 		</div><!-- wraper-contato -->

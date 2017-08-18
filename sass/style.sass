@@ -333,7 +333,7 @@ section.contato
 		&:focus
 			border: 1px solid $accent_color
 
-	button
+	input[type="submit"]
 		width: 200px
 		height: 50px
 		margin-top: 20px !important
@@ -432,10 +432,11 @@ footer
 
 @include phone
 	.menu img
-		width: 250px
+		width: 200px
 
 	.img-menu
-		top: 20px
+		top: 12px
+		right: 20px
 
 	.left
 		float: none
@@ -448,3 +449,6 @@ footer
 			left: 50%
 			+transform-translate(-50%,-50%)
 			+text-banner(50px)
+
+	.sobre-infor
+		width: 98% !important
