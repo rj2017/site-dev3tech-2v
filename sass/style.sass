@@ -149,6 +149,42 @@ nav.menu-mobile ul li
 nav.menu-mobile ul a
 	text-decoration: none !important
 
+.wrapper-mailing
+	position: absolute
+	z-index: 2
+	top: 50%
+	left: 50%
+	+transform-translate(-50%,-50%)
+	background-color: $white_rgba
+	padding: 30px
+
+	.mailing
+		text-align: center
+		color: $alternative_color
+
+
+	input[type="text"]
+		width: 400px
+		margin-top: 20px !important
+		height: 50px !important
+		font-size: 18px
+		border: 0
+		padding-left: 8px
+
+		&:focus
+			border: 1px solid $accent_color
+
+
+	input[type="submit"]
+		width: 150px
+		height: 40px
+		margin-top: 20px !important
+		font-size: 18px
+
+		&:hover
+			+box-shadow(4px 4px $accent_color)
+
+
 /*slide slick*/
 
 header .slick-dotted ul
@@ -350,11 +386,10 @@ section.sobre
 	padding: 30px
 
 	.wraper-sobre
-		display: flex
-		align-items: center
+		text-align: center
 
 	.sobre-infor
-		width: 60%
+		width: 100%
 		padding: 20px
 		text-align: center
 
@@ -366,9 +401,9 @@ section.sobre
 			text-align: justify
 			margin-top: 20px
 			max-width: 600px
-			display: inline-block
+			margin: 0 auto
 
-	.sobre-img
+	/* .sobre-img
 		width: 40%
 		padding: 20px
 
@@ -381,7 +416,7 @@ section.sobre
 				width: 100%
 				height: 100%
 				background-position: center
-				background-size: cover
+				background-size: cover */
 
 /**rodape**/ 
 

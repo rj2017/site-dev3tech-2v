@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="css/slick.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen,projection"/>
+	<link rel="stylesheet" type="text/css" href="aos.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.o, maximun-scale=1.0">
@@ -19,7 +20,7 @@
 	<link rel="alternate" href="http://dev3tech.com.br/" hreflang="pt-br" />
 </head>
 <body>
-	<header>
+	<header data-aos="fade-up">
 			<img src="images/menu-mobile.png" class="img-menu" />
 
 			<div class="menu">
@@ -43,13 +44,28 @@
 					<div class="clear"></div>
 			</div>
 
+			<div class="wrapper-mailing">
+					<div class="mailing">
+						<h2>Receba nossas novidades</h2>
+						<form action="envio_mailing.php" id="mailing-email" name="envio_mailing" method="post">
+							<input type="text" name="email" placeholder="E-mail" />
+							<div>
+							<input type="submit" class="btn btn-primary" name="enviar" value="Enviar">
+							</div>
+
+						</form>
+					</div>
+				</div>
+
 			<div class="slide-head">
 
-				<div class="slide-head-single" style="background-image: url(images/slide2.jpg);">
+
+
+				<div class="slide-head-single" style="background-image: url(images/paper1.jpg);">
 
 				</div><!-- slide-head-single -->
 
-				<div class="slide-head-single" style="background-image: url(images/slide1.jpg);">
+				<div class="slide-head-single" style="background-image: url(images/paper2.jpg);">
 					
 				</div><!-- slide-head-single -->
 
@@ -63,17 +79,17 @@
 			<div class="clear"></div>
 		</div><!-- wraper-social -->
 	</section><!-- socials -->
-	<section class="servicos" id="servicos">
+	<section class="servicos" id="servicos" data-aos="fade-left" data-aos-duration="1000">
 		
 		<div class="servicos-wrapper">
 
-			<div class="servicos-single">
+			<div class="servicos-single" data-aos="flip-left" data-aos-duration="1200>
 				<img src="images/group.png"/>
 				<h2>Nosso time</h2>
 				<p>Nosso time é jovem e empreendedor que busca constantemente conhecimentos para melhorar nossos produtos, sempre buscando transparência e um serviço de qualidade.</p>
 			</div><!-- servicos-single -->
 
-			<div class="servicos-single">
+			<div class="servicos-single" data-aos="flip-left" data-aos-duration="1600>
 				<img src="images/pc.png"/>
 				<h2>sites</h2>
 				<p>Sites e sistemas que se adaptam em qualquer tela!</p>
@@ -85,7 +101,7 @@
 				</ul>
 			</div><!-- servicos-single -->
 
-			<div class="servicos-single">
+			<div class="servicos-single" data-aos="flip-left" data-aos-duration="1800>
 				<img src="images/site-map.png"/>
 				<h2>Excelente tecnologia</h2>
 				<ul>
@@ -99,32 +115,33 @@
 		</div><!-- servicos-wrapper -->
 
 	</section><!-- servicos -->
-	<section class="comentarios">
-
+	<!-- <section class="comentarios">
+	
 		<div class="comentarios-wraper">
 			<div class="comentarios-single">
 				<img src="images/fj.jpg" class="img-circle" />
 				<p>"Programadores são ferramentas para converter cafeína em código."</p>
-			</div><!-- comentarios-single -->
-		</div><!-- comentarios-wraper -->
-
+			</div>comentarios-single
+		</div>comentarios-wraper
+	
 		<div class="comentarios-wraper">
 			<div class="comentarios-single">
 				<img src="images/rj.jpg" class="img-circle" />
 				<p>"Lutem, lutem e lutem novamente até que cordeiros se tornem dragões."</p>
-			</div><!-- comentarios-single -->
-		</div><!-- comentarios-wraper -->
-
+			</div>comentarios-single
+		</div>comentarios-wraper
 	
-	</section><!-- comentarios -->
-	<div class="clear"></div>
-	<section class="templates" id="templates">
+	
+	</section>comentarios
+	<div class="clear"></div> -->
+
+	<section class="templates" id="templates" data-aos="fade-left" data-aos-duration="1000">
 		<div class="wraper-templates">
-			<h2>Nossos Templates</h2>
+			<h2>Nossos Sites</h2>
 
 			<div class="templates-single">
 
-				<div class="cont-template">
+				<div class="cont-template" data-aos="flip-left" data-aos-duration="1600">
 					<p>Site antigo</p>
 
 					<div class="img-template">
@@ -132,7 +149,7 @@
 					</div><!-- img-template -->
 				</div><!-- cont-template -->
 
-				<div class="cont-template">
+				<div class="cont-template" data-aos="flip-left" data-aos-duration="1600">
 					<p>Justin City</p>
 
 					<div class="img-template">
@@ -140,7 +157,7 @@
 					</div><!-- img-template -->
 				</div><!-- cont-template -->
 
-				<div class="cont-template">
+				<div class="cont-template" data-aos="flip-left" data-aos-duration="1600">
 					<p>Template light</p>
 
 					<div class="img-template">
@@ -155,7 +172,8 @@
 
 		</div><!-- wraper-templates -->
 	</section><!-- templates -->
-	<section class="contato" id="contato">
+
+	<section class="contato" id="contato" data-aos="fade-left" data-aos-duration="1000">
 		<div class="wraper-contato">
 			
 			<h2>Entre em contato</h2>
@@ -174,7 +192,8 @@
 			</form>
 		</div><!-- wraper-contato -->
 	</section><!-- contato -->
-	<section class="sobre" id="sobre">
+
+	<section class="sobre" id="sobre" data-aos="fade-left" data-aos-duration="1000">
 
 		<div class="wraper-sobre">
 
@@ -185,11 +204,11 @@
 				<p>O nosso foco é fornecer a oportunidade de micro e pequenos negócios de terem sites e sistemas agregando valor ao seu serviço/produto, dentro de sua realidade, prezando sempre pela transparência e respeito ao nosso o cliente mantendo assim um excelente relacionamento.</p>
 			</div><!-- sobre-single -->
 
-			<div class="sobre-img">
+			<!-- <div class="sobre-img">
 				<div class="img">
-					<img src="images/equipe.jpg">
-				</div><!-- img-sobre -->
-			</div><!-- sobre-single -->
+					<img src="images/shotcut.PNG">
+				</div>img-sobre
+			</div>sobre-single -->
 
 		</div><!-- wraper-sobre -->
 	</section><!-- sobre -->
@@ -199,9 +218,14 @@
 		<div class="clear"></div>
 	</footer>
 
+	
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/slick.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/functions.js"></script>
+	<script src="aos.js"></script>
+	<script type="text/javascript">
+		AOS.init();
+	</script>
 </body>
 </html>
