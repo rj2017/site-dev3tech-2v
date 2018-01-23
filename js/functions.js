@@ -1,6 +1,6 @@
 $(function(){
 
-	 $('[data-toggle="popover"]').popover()
+	 $('[data-toggle="popover"]').popover();
 
 // slide usando plugin slick
 	
@@ -29,7 +29,7 @@ $(function(){
 	//Menu mobile
 
 	$('.img-menu').click(function(){
-		$('.menu-mobile').slideToggle()
+		$('.menu-mobile').slideToggle();
 	});
 
 	/*deslizamento menu*/	
